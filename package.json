@@ -1,0 +1,16 @@
+{
+  "name": "vrising-get-server-configs",
+  "version": "1.0.0",
+  "description": "Grab the most important files from your existing V Rising Server and package them up nicely into a zip.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Medallyon",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "regedit": "^5.1.1"
+  }
+}
